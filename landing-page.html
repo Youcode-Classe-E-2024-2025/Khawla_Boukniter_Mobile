@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="padding: 0;">
-    <!-- Navigation -->
+
+    <!-- Barre de navigation -->
     <header>
         <nav style="padding: 20px;">
             <ul>
@@ -19,7 +20,7 @@
     </header>
 
     <div style="padding: 0px; margin: 0px;">
-        <!-- realme Section -->
+        <!-- Section Aperçu -->
         <section class="apercu" id="apercu">
             <h1>realme C61</h1>
             <p style="padding: 20px; align-self: self-end;">Charge rapide de 45 W | Batterie longue durée de 5 000 mAh<br>
@@ -29,12 +30,12 @@
         </section>
     </div>
 
-    <!-- Caractéristiques Section -->
+    <!-- Section Caractéristiques -->
     <section class="caracteristiques" id="caracteristiques">
         <h2>Caractéristiques:</h2>
         <div class="features">
             <div>
-                <img src="images/gold-pc.png" alt="realme phone">
+                <img src="assets/images/gold-pc.png" alt="realme phone">
             </div>
             <div>
                 <ul>
@@ -56,7 +57,7 @@
         </div>
     </section>
 
-    <!-- Spécifications Section -->
+    <!-- Section Spécifications -->
     <section class="specifications">
         <table>
             <tr>
@@ -80,6 +81,23 @@
                 <td>One Speaker, One-mic Noise Cancellation</td>
             </tr>
         </table>
+    </section>
+
+    <!-- Section de Support -->
+    <section class="contact" id="support">
+        <h2>Contactez-nous:</h2>
+        <form>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="10" placeholder="Ecriver votre message ici..."></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
     </section>
 </body>
 </html>
