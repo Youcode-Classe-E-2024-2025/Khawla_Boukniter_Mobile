@@ -104,3 +104,60 @@ nav ul li:last-child a {
     max-width: 100%;
     height: auto;
 }
+
+/* Caractéristiques Section */
+.caracteristiques {
+    padding: 4.0rem;
+    background-color: white;
+    text-align: center;
+}
+
+.caracteristiques h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.0rem;
+}
+
+
+.features img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features ul {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.features ul li {
+    margin-bottom: 1.0rem;
+    line-height: 1.5;
+}
+
+.features .span ul li {
+    display: inline-flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.features ul li span {
+    display: inline-block;
+    width: 2.0rem;
+    height: 2.0rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.features ul li span:first-child {
+    background-color: #e8d3aa; /* Sparkle Gold */
+}
+
+.features ul li span:last-child {
+    background-color: #45554d; /* Dark Green */
+}
