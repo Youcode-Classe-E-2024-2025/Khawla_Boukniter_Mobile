@@ -58,7 +58,7 @@ nav ul li:last-child a {
 
 /* Aperçu section */
 .apercu {
-  background-image: url(images/realme.jpg);
+  background-image: url(../images/realme.jpg);
   background-size: cover;
   aspect-ratio: 2878 / 1584;
   display: flex;
@@ -120,7 +120,6 @@ nav ul li:last-child a {
 .features {
   display: flex;
   align-items: center;
-  text-align: justify;
   margin-top: 2rem;
 }
 
@@ -279,4 +278,54 @@ footer .footer-nav li a {
   font-size: 1.4rem;
   padding-right: 2rem;
   color: white;
+}
+
+/* Media queries */
+
+/* Tablettes */
+@media (max-width: 1025px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 786px) {
+  .apercu p {
+    font-size: 1.8rem;
+  }
+  .apercu h1 {
+    font-size: 6rem;
+  }
+  nav ul li a {
+    font-size: 1.4rem;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 426px) {
+  .apercu h1 {
+    font-size: 3rem;
+  }
+  .apercu p {
+    font-size: 1rem;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features ul {
+    font-size: 1.5rem;
+  }
+  .features .span ul li {
+    font-size: 1.4rem;
+  }
+  .features ul li:first-child span {
+    width: 2.4rem;
+  }
+  .features ul li:last-child span {
+    width: 2.4rem;
+  }
+  footer div {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
