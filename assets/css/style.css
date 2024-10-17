@@ -1,163 +1,187 @@
 /* Styles globaux */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #fefcf8;
-    color: #333;
-    padding: 2.0rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #fefcf8;
+  color: #333;
+  padding: 2rem;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* Navigation */
 header {
-    background-color: white;
-    padding: 0 0 .2rem 2.0rem;
+  background-color: white;
+  padding: 0 0 0.2rem 2rem;
 }
 
 nav {
-    margin-top: .0rem;
-    margin-right: .0rem;
+  margin-top: 0rem;
+  margin-right: 0rem;
 }
 
 nav ul {
-    display: flex;
-    justify-content: flex-end;
-    gap: 3.0rem;
-    list-style: none;
-    align-items: center;
-    padding-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  list-style: none;
+  align-items: center;
+  padding-top: 1.5rem;
 }
 
 nav ul li a {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 nav ul li:last-child a {
-    background-color: #fdd835;
-    padding: 1.5rem 1.5rem;
+  background-color: #fdd835;
+  padding: 1.5rem 1.5rem;
 }
 
 /* Aperçu section */
 .apercu {
-    background-image: url(images/realme.jpg);
-    background-size: cover;
-    aspect-ratio: 2878 / 1584;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    line-height: 1.5;
-    text-align: center;
+  background-image: url(images/realme.jpg);
+  background-size: cover;
+  aspect-ratio: 2878 / 1584;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .apercu h1 {
-    line-height: 2;
-    font-size: 4.2rem;
-    font-family: Maven Pro, sans-serif;
+  line-height: 2;
+  font-size: 4.2rem;
+  font-family: Maven Pro, sans-serif;
 }
 
 .apercu p {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 .apercu-text {
-    padding: 3.0rem;
+  padding: 3rem;
 }
 
 .realme {
-    text-align: center;
-    padding: 4.0rem;
-    background-color: white;
+  text-align: center;
+  padding: 4rem;
+  background-color: white;
 }
 
 .realme h1 {
-    font-size: 4.0rem;
-    font-weight: bold;
-    margin-bottom: 1.0rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .realme p {
-    font-size: 1.8rem;
-    margin-bottom: 2.0rem;
-    color: #555;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #555;
 }
 
 .realme img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Caractéristiques Section */
 .caracteristiques {
-    padding: 4.0rem;
-    background-color: white;
-    text-align: center;
+  padding: 4rem;
+  background-color: white;
+  text-align: center;
 }
 
 .caracteristiques h2 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .features {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2.0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-
 .features img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .features ul {
-    list-style: none;
-    font-size: 1.5rem;
+  list-style: none;
+  font-size: 1.5rem;
 }
 
 .features ul li {
-    margin-bottom: 1.0rem;
-    line-height: 1.5;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .features .span ul li {
-    display: inline-flex;
-    align-items: center;
-    gap: 3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 3rem;
 }
 
 .features ul li span {
-    display: inline-block;
-    width: 2.0rem;
-    height: 2.0rem;
-    border-radius: 50%;
-    margin-right: 0.5rem;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
 }
 
 .features ul li span:first-child {
-    background-color: #e8d3aa; /* Sparkle Gold */
+  background-color: #e8d3aa; /* Sparkle Gold */
 }
 
 .features ul li span:last-child {
-    background-color: #45554d; /* Dark Green */
+  background-color: #45554d; /* Dark Green */
+}
+
+/* Specifications */
+.specifications {
+  padding: 5rem;
+}
+
+.specifications table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.specifications th,
+.specifications td {
+  padding: 1.5rem;
+  text-align: left;
+  border-bottom: 0.1rem solid #ddd;
+  font-size: 1.6rem;
+}
+
+.specifications th {
+  font-weight: bold;
+  background-color: #fefcf8;
+  width: 35%;
+  font-size: 1.8rem;
 }
