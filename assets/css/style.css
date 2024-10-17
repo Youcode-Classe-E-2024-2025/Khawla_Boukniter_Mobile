@@ -119,8 +119,8 @@ nav ul li:last-child a {
 
 .features {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  text-align: justify;
   margin-top: 2rem;
 }
 
