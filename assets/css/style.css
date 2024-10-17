@@ -185,3 +185,97 @@ nav ul li:last-child a {
   width: 35%;
   font-size: 1.8rem;
 }
+
+/* Formulaire de contact */
+.contact {
+  padding: 4rem 0;
+  background-color: #fefcf8;
+}
+
+.contact h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 3rem;
+}
+
+input,
+textarea {
+  flex-basis: 65%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.5rem;
+}
+
+button {
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 60%;
+  align-self: flex-end;
+  margin-right: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fbc02d;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.8rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li img {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer .footer-nav li a {
+  font-size: 1.4rem;
+  padding-right: 2rem;
+  color: white;
+}
