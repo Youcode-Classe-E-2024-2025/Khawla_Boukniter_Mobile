@@ -148,18 +148,18 @@ nav ul li:last-child a {
 
 .features ul li span {
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  aspect-ratio: 1;
   border-radius: 50%;
   margin-right: 0.5rem;
 }
 
-.features ul li span:first-child {
-  background-color: #e8d3aa; /* Sparkle Gold */
+.features ul li:first-child span {
+  background-color: #e8d3aa;
 }
 
-.features ul li span:last-child {
-  background-color: #45554d; /* Dark Green */
+.features ul li:last-child span {
+  background-color: #45554d;
 }
 
 /* Specifications */
