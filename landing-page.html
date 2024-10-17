@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body style="padding: 0">
+  <body>
     <!-- Navigation -->
     <header>
       <nav>
@@ -24,7 +24,7 @@
       </nav>
     </header>
 
-    <div style="padding: 0px; margin: 0px">
+    <div>
       <!-- realme Section -->
       <section class="apercu" id="apercu">
         <div class="apercu-text">
@@ -125,7 +125,7 @@
 
           <div class="form">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required />
           </div>
 
           <div class="form" style="align-items: flex-start; padding-top: 1rem">
@@ -135,6 +135,7 @@
               name="description"
               rows="10"
               placeholder="Ecriver votre message ici..."
+              required
             ></textarea>
           </div>
 

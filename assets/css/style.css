@@ -13,7 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fefcf8;
   color: #333;
-  padding: 2rem;
 }
 
 a {
@@ -143,6 +142,7 @@ nav ul li:last-child a {
   align-items: center;
   gap: 1rem;
   font-size: 1.6rem;
+  flex-direction: column;
 }
 
 .features ul li span {
