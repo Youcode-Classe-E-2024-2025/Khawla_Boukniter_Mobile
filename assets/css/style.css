@@ -69,9 +69,9 @@ nav ul li:last-child a {
 }
 
 .apercu h1 {
-  line-height: 2;
-  font-size: 4.2rem;
-  font-family: Maven Pro, sans-serif;
+  font-size: 6.4rem;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .apercu p {
