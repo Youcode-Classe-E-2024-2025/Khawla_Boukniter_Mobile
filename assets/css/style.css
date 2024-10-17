@@ -188,8 +188,14 @@ nav ul li:last-child a {
 
 /* Formulaire de contact */
 .contact {
-  padding: 4rem 0;
+  padding: 2rem 0;
   background-color: #fefcf8;
+}
+
+.contact img {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 954 / 261;
 }
 
 .contact h2 {
