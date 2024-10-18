@@ -18,6 +18,7 @@ body {
 a {
   text-decoration: none;
   color: #000;
+  display: block;
 }
 
 ul {
@@ -25,14 +26,10 @@ ul {
 }
 
 /* Navigation */
-header {
-  background-color: white;
-  padding: 0 0 0.2rem 2rem;
-}
-
 nav {
-  margin-top: 0rem;
-  margin-right: 0rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 nav ul {
@@ -41,7 +38,6 @@ nav ul {
   gap: 3rem;
   list-style: none;
   align-items: center;
-  padding-top: 1.5rem;
 }
 
 nav ul li a {
@@ -120,6 +116,7 @@ nav ul li:last-child a {
   display: flex;
   align-items: center;
   margin-top: 2rem;
+  gap: 3rem;
 }
 
 .features img {
@@ -155,13 +152,11 @@ nav ul li:last-child a {
 
 .features ul li:first-child span {
   background-color: #e8d3aa;
-  outline: 2px solid #e8d3aa;
   outline-offset: 1.5px;
 }
 
 .features ul li:last-child span {
   background-color: #45554d;
-  outline: 2px solid #45554d;
   outline-offset: 1.5px;
 }
 
