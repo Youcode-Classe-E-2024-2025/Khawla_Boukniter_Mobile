@@ -42,7 +42,11 @@
         <h2>Caractéristiques:</h2>
         <div class="features">
           <div style="flex: 1">
-            <img src="assets/images/gold-pc.png" alt="realme phone" />
+            <img
+              src="assets/images/gold-pc.png"
+              alt="realme phone"
+              id="phone-image"
+            />
           </div>
           <div style="flex: 2">
             <div
@@ -76,8 +80,12 @@
               class="span"
             >
               <ul style="display: flex; gap: 6rem">
-                <li><span></span>Sparkle Gold</li>
-                <li><span></span>Dark Green</li>
+                <li>
+                  <span class="circle" data-color="gold"></span>Sparkle Gold
+                </li>
+                <li>
+                  <span class="circle" data-color="green"></span>Dark Green
+                </li>
               </ul>
             </div>
           </div>
@@ -107,8 +115,10 @@
             <td>realme UI, Android 14</td>
           </tr>
           <tr>
-            <th>Audio</th>
-            <td>One Speaker, One-mic Noise Cancellation</td>
+            <th style="border-bottom: initial">Audio</th>
+            <td style="border-bottom: initial">
+              One Speaker, One-mic Noise Cancellation
+            </td>
           </tr>
         </table>
       </section>
@@ -235,5 +245,22 @@
         </p>
       </footer>
     </div>
+    <script>
+      const colorCircles = document.querySelectorAll(".circle");
+
+      const phoneImage = document.getElementById("phone-image");
+
+      colorCircles.forEach((circle) => {
+        circle.addEventListener("click", function () {
+          const color = this.getAttribute("data-color");
+
+          if (color === "gold") {
+            phoneImage.src = "assets/images/gold-pc.png";
+          } else if (color === "green") {
+            phoneImage.src = "assets/images/green-pc.png";
+          }
+        });
+      });
+    </script>
   </body>
 </html>
